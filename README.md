@@ -1,8 +1,6 @@
 # yellowscrape
 Scrape and save data from German yellowpages (Gelbeseiten)
 
-# Scrapy YellowPages Spider
-
 ## Running the Scrapy Spider
 
 To run this spider, download the whole repository into your machine, open your Terminal, navigate to its folder, and then type:
