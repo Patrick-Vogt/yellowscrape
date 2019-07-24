@@ -7,7 +7,7 @@ class YlpSpider(scrapy.Spider):
     name = "ylp"
     allowed_domains = ["gelbeseiten.de"]
     alphabets = string.ascii_lowercase
-    start_urls = ['https://www.gelbeseiten.de/'+ str(i)+'/s'+ str(x)
+    start_urls = ['https://www.gelbeseiten.de/Suche/'+ str(i)+'/Bundesweit/Seite-'+ str(x)
     for i in alphabets
         for x in range (1,3000)]
     
